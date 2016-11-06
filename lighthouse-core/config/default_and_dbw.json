@@ -32,14 +32,14 @@
       "https",
       "styles",
       "url",
-      "../gather/gatherers/dobetterweb/appcache",
-      "../gather/gatherers/dobetterweb/console-time-usage",
-      "../gather/gatherers/dobetterweb/datenow",
-      "../gather/gatherers/dobetterweb/document-event-listeners",
-      "../gather/gatherers/dobetterweb/document-write",
-      "../gather/gatherers/dobetterweb/geolocation-on-start",
-      "../gather/gatherers/dobetterweb/links-blocking-first-paint",
-      "../gather/gatherers/dobetterweb/websql"
+      "./gather/gatherers/dobetterweb/appcache",
+      "./gather/gatherers/dobetterweb/console-time-usage",
+      "./gather/gatherers/dobetterweb/datenow",
+      "./gather/gatherers/dobetterweb/document-event-listeners",
+      "./gather/gatherers/dobetterweb/document-write",
+      "./gather/gatherers/dobetterweb/geolocation-on-start",
+      "./gather/gatherers/dobetterweb/links-blocking-first-paint",
+      "./gather/gatherers/dobetterweb/websql"
     ]
   }],
 
@@ -75,17 +75,17 @@
     "label",
     "tabindex",
     "content-width",
-    "../audits/dobetterweb/appcache-manifest",
-    "../audits/dobetterweb/geolocation-on-start",
-    "../audits/dobetterweb/link-blocking-first-paint",
-    "../audits/dobetterweb/no-console-time",
-    "../audits/dobetterweb/no-datenow",
-    "../audits/dobetterweb/no-document-write",
-    "../audits/dobetterweb/no-mutation-events",
-    "../audits/dobetterweb/no-old-flexbox",
-    "../audits/dobetterweb/no-websql",
-    "../audits/dobetterweb/uses-http2",
-    "../audits/dobetterweb/uses-passive-event-listeners"
+    "./audits/dobetterweb/appcache-manifest",
+    "./audits/dobetterweb/geolocation-on-start",
+    "./audits/dobetterweb/link-blocking-first-paint",
+    "./audits/dobetterweb/no-console-time",
+    "./audits/dobetterweb/no-datenow",
+    "./audits/dobetterweb/no-document-write",
+    "./audits/dobetterweb/no-mutation-events",
+    "./audits/dobetterweb/no-old-flexbox",
+    "./audits/dobetterweb/no-websql",
+    "./audits/dobetterweb/uses-http2",
+    "./audits/dobetterweb/uses-passive-event-listeners"
   ],
 
   "aggregations": [{

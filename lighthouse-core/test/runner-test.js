@@ -245,7 +245,7 @@ describe('Runner', () => {
     const coreAudits = Runner.getAuditList();
     coreAudits.forEach(auditFilename => {
       const auditPath = '../audits/' + auditFilename;
-      const auditExpectedName = /([^.]+)\.js$/.exec(auditFilename)[1];
+      const auditExpectedName = /(dobetterweb\/)?([^.]+)\.js$/.exec(auditFilename)[2];
       const AuditClass = require(auditPath);
       assert.strictEqual(AuditClass.meta.name, auditExpectedName);
     });
