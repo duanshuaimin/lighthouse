@@ -9,8 +9,7 @@
       "theme-color",
       "manifest",
       "accessibility",
-      "content-width",
-      "geolocation-on-start"
+      "content-width"
     ]
   },
   {
@@ -38,6 +37,8 @@
       "../gather/gatherers/dobetterweb/datenow",
       "../gather/gatherers/dobetterweb/document-event-listeners",
       "../gather/gatherers/dobetterweb/document-write",
+      "../gather/gatherers/dobetterweb/geolocation-on-start",
+      "../gather/gatherers/dobetterweb/links-blocking-first-paint",
       "../gather/gatherers/dobetterweb/websql"
     ]
   }],
@@ -66,7 +67,7 @@
     "manifest-short-name",
     "manifest-short-name-length",
     "manifest-start-url",
-    "meta-theme-color",
+    "theme-color-meta",
     "aria-valid-attr",
     "aria-allowed-attr",
     "color-contrast",
@@ -74,8 +75,9 @@
     "label",
     "tabindex",
     "content-width",
-    "geolocation-on-start",
     "../audits/dobetterweb/appcache-manifest",
+    "../audits/dobetterweb/geolocation-on-start",
+    "../audits/dobetterweb/link-blocking-first-paint",
     "../audits/dobetterweb/no-console-time",
     "../audits/dobetterweb/no-datenow",
     "../audits/dobetterweb/no-document-write",
@@ -100,10 +102,6 @@
           "weight": 1
         },
         "works-offline": {
-          "expectedValue": true,
-          "weight": 1
-        },
-        "cache-start-url": {
           "expectedValue": true,
           "weight": 1
         }
@@ -309,6 +307,12 @@
       "audits": {
         "no-document-write": {
           "expectedValue": false
+        },
+        "link-blocking-first-paint": {
+          "expectedValue": false
+        },
+        "geolocation-on-start": {
+          "expectedValue": false
         }
       }
     }, {
@@ -347,10 +351,6 @@
           "weight": 1
         },
         "manifest-display": {
-          "expectedValue": true,
-          "weight": 1
-        },
-        "geolocation-on-start": {
           "expectedValue": true,
           "weight": 1
         },
